@@ -1,0 +1,52 @@
+@import "colors.scss";
+
+$ff-placeholder: "Montserrat";
+$fz-default: 16px;
+
+// Advantages
+%advantage-card-desktop {
+  width: 360px;
+  height: 241px;
+  background-color: $color-default-white;
+}
+
+%advantage-card-tablet {
+  width: 206px;
+  height: 310px;
+  background-color: $color-default-white;
+}
+
+%advantage-card-mobile {
+  width: 290px;
+  height: 249px;
+  background-color: $color-default-white;
+}
+
+// Cruises
+%cruise-card-desktop {
+  width: 260px;
+  height: 386px;
+  background-color: $color-background-offline-lightblue;
+}
+
+%cruise-card-tablet {
+  width: 309px;
+  height: 386px;
+}
+
+%cruise-card-mobile {
+  width: 270px;
+  height: 386px;
+}
+
+// Inputs
+%input-form {
+  width: 303px;
+  height: 43px;
+  background-color: $color-default-white;
+}
+
+%input-form-mobile {
+  width: 230px;
+  height: 43px;
+}

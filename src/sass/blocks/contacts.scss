@@ -1,0 +1,95 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  padding: 120px 103px;
+
+  @media (max-width: $tablet-width) {
+    padding: 100px 45px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding: 65px 15px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
+
+.contacts-map {
+  max-width: 560px;
+  height: 306px;
+  margin-right: 100px;
+
+  @media (max-width: $tablet-width) {
+    margin-right: 30px;
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-right: 0;
+    min-height: 316px;
+    max-width: 100%;
+  }
+}
+
+.contacts-block {
+  color: $color-default-blue;
+  max-width: 500px;
+
+  @media (max-width: $tablet-width) {
+
+  }
+
+  @media (max-width: $mobile-width) {
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+
+.contacts-block p {
+  @include font-medium(18px, 27px);
+  color: $color-default-blue;
+  margin-bottom: 45px;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 40px;
+  }
+}
+
+.contacts-address {
+  @include font-regular(16px, 24px);
+  color: $color-default-blue;
+  font-style: normal;
+  margin-left: 28px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-image: url("/img/icons/map-mark.svg");
+    background-size: cover;
+    width: 18px;
+    height: 22px;
+    left: -28px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    background-image: url("/img/icons/phone.svg");
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    left: -28px;
+    bottom: 0;
+  }
+
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 43px;
+  }
+}
+
+.contacts-address a {
+  display: block;
+  margin-top: 33px;
+}
+

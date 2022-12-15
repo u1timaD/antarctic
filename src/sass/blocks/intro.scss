@@ -1,0 +1,52 @@
+.intro {
+  background-image: url("/img/header-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (max-width: $tablet-width) {
+
+  }
+
+  @media (max-width: $mobile-width) {
+
+  }
+}
+
+.intro__container {
+  height: 100vh;
+  max-height: 650px;
+  display: flex;
+  align-items: center;
+  padding-left: 95px;
+}
+
+.intro__block {
+
+}
+
+.intro h1 {
+  @include font-bold(54px, 66px);
+  color: $color-default-white;
+  margin-bottom: 30px;
+
+  @media (max-width: $tablet-width) {
+    @include font-bold(50px, 60px);
+  }
+
+  @media (max-width: $mobile-width) {
+    @include font-bold(36px, 45px);
+    margin-bottom: 25px;
+    max-width: 256px;
+  }
+}
+
+.intro p {
+  @include font-regular(20px, 25px);
+  color: $color-default-white;
+
+  @media (max-width: $mobile-width) {
+    @include font-regular(16px, 22px);
+    max-width: 199px;
+  }
+}

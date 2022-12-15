@@ -1,0 +1,119 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 95px 118px 92px;
+
+  @media (max-width: $tablet-width) {
+    padding: 100px 60px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding: 65px 20px;
+  }
+
+}
+
+.product h2 {
+  @include font-semibold(28px, 42px);
+  color: $color-default-blue;
+  margin-bottom: 60px;
+
+  @media (max-width: $mobile-width) {
+    @include font-semibold(24px, 36px);
+    margin-bottom: 40px;
+  }
+}
+
+.product-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  // flex-direction: ;
+
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 260px;
+  height: 386px;
+  flex-grow: 1;
+
+  @media (max-width: $tablet-width) {
+    // width: 309px;
+  }
+
+  @media (max-width: $mobile-width) {
+
+  }
+
+  &--astoria {
+    background-image: url("/img/astoria.jpg");
+  }
+  &--elain {
+    // background-image: url("/img/astoria.jpg");
+    background-color: $color-default-blue;
+  }
+  &--atlantis {
+    background-image: url("/img/atlantis.jpg");
+  }
+  &--odisey {
+    background-image: url("/img/odisey.jpg");
+  }
+  &--olimpiya {
+    background-image: url("/img/olimpiya.jpg");
+  }
+  &--avrora {
+    background-image: url("/img/avrora.jpg");
+  }
+  &--leonor {
+    background-image: url("/img/leonor.jpg");
+  }
+  &--minion {
+    background-image: url("/img/minion.jpg");
+  }
+
+  &--description {
+    padding: 35px 25px;
+    background-color: $color-default-blue;
+  }
+}
+
+
+// .product-card--title h3 {
+//   position: absolute;
+//   @include font-medium(18px, 27px);
+//   color: $color-default-white;
+//   bottom: 30px;
+//   left: 30px;
+// }
+
+.product-card--description h3 {
+  @include font-medium(18px, 27px);
+  color: $color-default-white;
+  margin-bottom: 25px;
+}
+
+
+.product-container {
+  margin-bottom: 10px;
+}
+
+
+.product-container span {
+  display: inline-block;
+  @include font-medium(14px, 19px);
+  color: $color-default-white;
+  margin-bottom: 10px;
+
+}
+
+.product-container p {
+  @include font-regular(14px, 19px);
+  color: $color-card-description-white;
+}
