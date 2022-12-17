@@ -1,13 +1,8 @@
 .advantages {
-  padding: 120px 103px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-image: url("/img/advantages-background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
-  align-items: center;
 
   @media (max-width: $tablet-width) {
     padding: 100px 45px;
@@ -22,6 +17,7 @@
   @include font-semibold(28px, 42px);
   color: $color-default-blue;
   margin-bottom: 60px;
+  text-align: center;
 
   @media (max-width: $tablet-width) {
     @include font-semibold(26px, 39px);
@@ -34,7 +30,7 @@
   }
 }
 
-.advantages-item {
+.advantages__item {
   display: flex;
   gap: 40px;
   list-style: none;
@@ -51,7 +47,7 @@
   }
 }
 
-.advantages-list {
+.advantages__list {
   padding: 87px 30px 50px;
   max-width: 360px;
   min-height: 241px;
@@ -146,7 +142,7 @@
 }
 }
 
-.advantages-list h3 {
+.advantages__list h3 {
   @include font-medium(18px, 27px);
   color: $color-default-blue;
   margin-bottom: 20px;
@@ -156,7 +152,7 @@
     max-width: 170px;
   }
 }
-.advantages-list p {
+.advantages__list p {
   @include font-medium(14px, 19px);
   color: $color-default-blue;
 }

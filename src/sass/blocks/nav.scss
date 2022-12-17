@@ -1,0 +1,19 @@
+.nav {
+
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 33px;
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+  @include font-medium(16px, 19px);
+  color: $color-default-white;
+  cursor: pointer;
+}

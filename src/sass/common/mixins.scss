@@ -1,22 +1,26 @@
 @mixin font-regular($size, $line-height) {
+  font-family: "Montserrat";
   font-weight: 400;
   font-size: $size;
   line-height: $line-height;
   margin: 0;
 }
 @mixin font-medium($size, $line-height) {
+  font-family: "Montserrat";
   font-weight: 500;
   font-size: $size;
   line-height: $line-height;
   margin: 0;
 }
 @mixin font-semibold($size, $line-height) {
+  font-family: "Montserrat";
   font-weight: 600;
   font-size: $size;
   line-height: $line-height;
   margin: 0;
 }
 @mixin font-bold($size, $line-height) {
+  font-family: "Montserrat";
   font-weight: 700;
   font-size: $size;
   line-height: $line-height;

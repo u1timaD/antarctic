@@ -1,6 +1,8 @@
 .header {
   position: absolute;
   z-index: 5;
+  width: 100%;
+  top: 37px;
 
   @media (max-width: $tablet-width) {
 
@@ -11,3 +13,11 @@
   }
 }
 
+.header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+
+}
