@@ -28,7 +28,7 @@
 .intro h1 {
   @include font-bold(54px, 66px);
   color: $color-default-white;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
   @media (max-width: $tablet-width) {
     @include font-bold(50px, 60px);
