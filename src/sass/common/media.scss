@@ -1,7 +1,23 @@
-$mobile-width: 767px;
-$tablet-width: 1023px;
-$desktop-width: 1024px;
+/*
+@media (min-resolution: 2dppx) {
+  background-image: url("/img/intro-background-desktop@2x.jpg");
+}
 
+@media (max-width: $tablet-width) {
+  background-image: url("/img/intro-background-tablet.jpg");
+  @media (min-resoluton: $retina-dppx) {
+    background-image: url("/img/intro-background-tablet@2x.jpg");
+  }
+}
+
+@media (max-width: $mobile-width) {
+  background-image: url("/img/intro-background-mobile.jpg");
+  @media (min-resoluton: $retina-dppx) {
+    background-image: url("/img/intro-background-mobile@2x.jpg");
+  }
+}
+
+*/
 
 
 @media (max-width: $tablet-width) {

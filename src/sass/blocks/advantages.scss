@@ -15,7 +15,7 @@
 
 .advantages h2 {
   @include font-semibold(28px, 42px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
   margin-bottom: 60px;
   text-align: center;
 
@@ -144,7 +144,7 @@
 
 .advantages__list h3 {
   @include font-medium(18px, 27px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
   margin-bottom: 20px;
   max-width: 100%;
 
@@ -154,5 +154,5 @@
 }
 .advantages__list p {
   @include font-medium(14px, 19px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
 }

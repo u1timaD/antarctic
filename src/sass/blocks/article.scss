@@ -34,12 +34,13 @@
 
   @media (max-width: $mobile-width) {
     max-width: 100%;
+    margin-right: 0px;
   }
 }
 
-.article h2 {
+.article__block h2 {
   @include font-semibold(28px, 42px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
   margin-bottom: 40px;
 
   @media (max-width: $tablet-width) {
@@ -57,9 +58,9 @@
   }
 }
 
-.article p {
+.article__block p {
   @include font-regular(16px, 24px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
 
   @media (max-width: $mobile-width) {
   }

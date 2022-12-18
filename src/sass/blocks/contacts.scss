@@ -46,7 +46,7 @@
 
 
 .contacts__block {
-  color: $color-default-blue;
+  color: $color-tangaroa;
 
   @media (max-width: $tablet-width) {
   }
@@ -60,7 +60,7 @@
 
 .contacts__block p {
   @include font-medium(18px, 27px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
   margin-bottom: 45px;
 
   @media (max-width: $tablet-width) {
@@ -70,7 +70,7 @@
 
 .contacts__address {
   @include font-regular(16px, 24px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
   font-style: normal;
   margin-left: 28px;
   position: relative;
