@@ -1,49 +1,71 @@
 .intro {
-  background-image: url("/img/header-background.jpg");
+  background-image: url("/img/intro-background-desktop.jpg");
+  background-color: $color-lochmara;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  @media (min-resolution: 2dppx) {
+    background-image: url("/img/intro-background-desktop@2x.jpg");
+  }
 
   @media (max-width: $tablet-width) {
-
+    background-image: url("/img/intro-background-tablet.jpg");
+    @media (min-resoluton: $retina-dppx) {
+      background-image: url("/img/intro-background-tablet@2x.jpg");
+    }
   }
 
   @media (max-width: $mobile-width) {
-
+    background-image: url("/img/intro-background-mobile.jpg");
+    @media (min-resoluton: $retina-dppx) {
+      background-image: url("/img/intro-background-mobile@2x.jpg");
+    }
   }
 }
 
 .intro__container {
-  height: 100vh;
-  max-height: 650px;
+  min-height: 650px;
   display: flex;
   align-items: center;
-  padding-left: 95px;
+  padding-left: 115px;
+
+  @media (max-width: $tablet-width) {
+    min-height: 638px;
+  }
+
+  @media (max-width: $mobile-width) {
+    min-height: 500px;
+  }
 }
 
 .intro__block {
 
 }
 
-.intro h1 {
+.intro__block h1 {
   @include font-bold(54px, 66px);
   color: $color-default-white;
   margin-bottom: 20px;
 
   @media (max-width: $tablet-width) {
     @include font-bold(50px, 60px);
+    margin-bottom: 20px;
   }
 
   @media (max-width: $mobile-width) {
     @include font-bold(36px, 45px);
-    margin-bottom: 25px;
+    margin-bottom: 18px;
     max-width: 256px;
   }
 }
 
-.intro p {
+.intro__block p {
   @include font-regular(20px, 25px);
   color: $color-default-white;
+
+  @media (max-width: $tablet-width) {
+    @include font-regular(18px, 21px);
+  }
 
   @media (max-width: $mobile-width) {
     @include font-regular(16px, 22px);

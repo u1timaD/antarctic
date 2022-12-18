@@ -27,7 +27,7 @@
 
 .product__container h2 {
   @include font-semibold(28px, 42px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
   margin-bottom: 60px;
   text-align: center;
 
@@ -69,7 +69,7 @@
   }
   &--elain {
     // background-image: url("/img/astoria.jpg");
-    background-color: $color-default-blue;
+    background-color: $color-tangaroa;
   }
   &--atlantis {
     background-image: url("/img/atlantis.jpg");
@@ -92,7 +92,7 @@
 
   &--description {
     padding: 35px 25px;
-    background-color: $color-default-blue;
+    background-color: $color-tangaroa;
   }
 }
 
@@ -127,5 +127,5 @@
 
 .product__feature p {
   @include font-regular(14px, 19px);
-  color: $color-card-description-white;
+  color: $color-quartz;
 }

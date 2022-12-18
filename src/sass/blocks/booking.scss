@@ -42,7 +42,7 @@
 
 .booking__description h2 {
   @include font-bold(40px, 60px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
   margin-bottom: 30px;
 
   @media (max-width: $tablet-width) {
@@ -59,7 +59,7 @@
 
 .booking__description p {
   @include font-medium(18px, 27px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
 
   @media (max-width: $tablet-width) {
     text-align: center;
@@ -77,7 +77,7 @@
   flex-direction: column;
   align-items: center;
   padding: 50px;
-  background-color: $color-default-blue;
+  background-color: $color-tangaroa;
   max-width: 403px;
 
   @media (max-width: $tablet-width) {
@@ -168,7 +168,7 @@ input[type="checkbox"] + label {
   margin: 0;
   padding: 0;
   @include font-semibold(14px, 21px);
-  color: $color-default-blue;
+  color: $color-tangaroa;
   width: 100%;
   max-width: 303px;
   padding-top: 15px;

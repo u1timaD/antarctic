@@ -1,4 +1,4 @@
-@import "colors.scss";
+@import "variables.scss";
 
 $ff-placeholder: "Montserrat";
 $fz-default: 16px;
@@ -26,7 +26,7 @@ $fz-default: 16px;
 %cruise-card-desktop {
   width: 260px;
   height: 386px;
-  background-color: $color-background-offline-lightblue;
+  // background-color: $color-background-offline-lightblue;
 }
 
 %cruise-card-tablet {
