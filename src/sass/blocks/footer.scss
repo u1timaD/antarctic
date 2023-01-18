@@ -1,9 +1,7 @@
 .footer {
   background-color: $color-tangaroa;
 
-
   @media (max-width: $tablet-width) {
-
   }
 
   @media (max-width: $mobile-width) {
@@ -16,58 +14,21 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.social__list {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 106px;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
   padding: 0;
-  margin: 0;
-  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
-  @media (max-width: $tablet-width) {
-    max-width: 87px;
+   @media (max-width: $tablet-width) {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   @media (max-width: $mobile-width) {
-    margin: 0;
-    margin-top: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    row-gap: 30px;
   }
 }
 
-.social__item {
-  height: 20px;
-  position: relative;
-}
-
-.social__icon {
-  color: $color-default-white;
-
-}
-
-.social__icon--odnoklasniki {
-  fill:  red;
-  @media (max-width: $tablet-width) {
-    width: 9px;
-    height: 16px;
-  }
-}
-
-.social__icon--vk {
-  @media (max-width: $tablet-width) {
-    width: 16px;
-    height: 16px;
-  }
-}
-
-.social__icon--ufo {
-  @media (max-width: $tablet-width) {
-    width: 16px;
-    height: 16px;
-  }
-}

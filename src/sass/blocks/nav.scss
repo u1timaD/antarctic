@@ -28,7 +28,28 @@
   cursor: pointer;
 
   @media (max-width: $tablet-width) {
-    @include font-medium(14px, 17px);
+    @include font-medium(12px, 14px);
+  }
+
+  @media (max-width: $mobile-width) {
+    @include font-medium(12px, 14px);
+  }
+}
+
+.nav--header .nav__list {
+  @media (max-width: $tablet-width) {
+    column-gap: 23px;
+  }
+
+  @media (max-width: $mobile-width) {
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 15px;
+  }
+}
+.nav--header .nav__link {
+  @media (max-width: $tablet-width) {
+    @include font-medium(14px, 14px);
   }
 
   @media (max-width: $mobile-width) {
