@@ -142,21 +142,18 @@ input {
 }
 
 .booking__checkbox {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-bottom: 20px;
+  margin-left: 23px;
 
   @media (max-width: $mobile-width) {
     margin-bottom: 30px;
   }
 }
 
-input[type="checkbox"] {
-  margin-right: 5px;
-  min-width: 18px;
-  min-height: 18px;
-}
 
 input[type="checkbox"] + label {
   @include font-regular(10px, 14px);
@@ -178,4 +175,25 @@ input[type="checkbox"] + label {
     padding-top: 11px;
     padding-bottom: 11px;
   }
+}
+
+input[type="checkbox"] + label::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: $color-alice-blue;
+  top: -4px;
+  left: -24px;
+}
+
+input[type="checkbox"]:checked + label::after {
+  content: "";
+  position: absolute;
+  background-image: url("/img/icons/checkbox_mark.svg");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  left: -22px;
+  top: 0;
 }
