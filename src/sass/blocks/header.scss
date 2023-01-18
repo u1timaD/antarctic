@@ -27,22 +27,23 @@
 
   @media (max-width: $mobile-width) {
     padding: 0 15px;
-    background-color: $color-alice-blue;
+    flex-direction: column;
+    align-items: flex-start;
 
+    // background-color: $color-alice-blue;
 
-  &::after {
-    position: absolute;
-    content: '';
-    width: 2px;
-    height: 24px;
-    background-color: $color-alice-blue;
-    right: 30px;
-    top: 0;
-    transform: rotate(90deg);
-    box-shadow: 6px 0px, -6px 0px;
-    cursor: pointer;
-  }
   }
 
 
+}
+
+
+.header__container .logo__wrapper {
+  @media (max-width: $tablet-width) {
+
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 33px;
+  }
 }
