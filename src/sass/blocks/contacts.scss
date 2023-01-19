@@ -1,11 +1,8 @@
 .contacts {
-
   @media (max-width: $tablet-width) {
-
   }
 
   @media (max-width: $mobile-width) {
-
   }
 }
 
@@ -16,7 +13,6 @@
   align-items: center;
 
   @media (max-width: $tablet-width) {
-
   }
 
   @media (max-width: $mobile-width) {
@@ -42,8 +38,6 @@
     margin-right: 0px;
   }
 }
-
-
 
 .contacts__block {
   color: $color-tangaroa;
@@ -78,7 +72,7 @@
   &::before {
     content: '';
     position: absolute;
-    background-image: url("/img/icons/map-mark.svg");
+    background-image: url("../img/icons/map-mark.svg");
     background-size: cover;
     width: 18px;
     height: 22px;
@@ -89,21 +83,19 @@
     }
 
     @media (max-width: $mobile-width) {
-
     }
   }
 
   &::after {
     content: '';
     position: absolute;
-    background-image: url("/img/icons/phone.svg");
+    background-image: url("../img/icons/phone.svg");
     background-size: cover;
     width: 18px;
     height: 18px;
     left: -28px;
     bottom: 5px;
   }
-
 
   @media (max-width: $mobile-width) {
     margin-bottom: 43px;

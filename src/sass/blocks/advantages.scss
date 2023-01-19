@@ -1,15 +1,13 @@
 .advantages {
-  background-image: url("/img/advantages-background.jpg");
+  background-image: url("../img/advantages-background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
 
   @media (max-width: $tablet-width) {
-
   }
 
   @media (max-width: $mobile-width) {
-
   }
 }
 
@@ -37,7 +35,6 @@
   margin: 0;
   padding: 0;
 
-
   @media (max-width: $tablet-width) {
     gap: 30px;
   }
@@ -54,7 +51,6 @@
   background-color: $color-default-white;
   position: relative;
 
-
   @media (max-width: $tablet-width) {
     padding: 76px 16px 25px 20px;
     max-width: 100%;
@@ -68,7 +64,7 @@
   &::before {
     content: '';
     position: absolute;
-    background-image: url("/img/icons/ship-front.svg");
+    background-image: url("../img/icons/ship-front.svg");
     background-size: cover;
     width: 27px;
     height: 32px;
@@ -95,7 +91,7 @@
   &::before {
     content: '';
     position: absolute;
-    background-image: url("/img/icons/doble-mark.svg");
+    background-image: url("../img/icons/doble-mark.svg");
     background-size: cover;
     width: 38px;
     height: 32px;
@@ -133,7 +129,7 @@
   &::before {
     content: '';
     position: absolute;
-    background-image: url("/img/icons/ship-side.svg");
+    background-image: url("../img/icons/ship-side.svg");
     background-size: cover;
     width: 44px;
     height: 32px;

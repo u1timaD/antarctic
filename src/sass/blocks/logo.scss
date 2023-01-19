@@ -1,8 +1,5 @@
 .logo__wrapper {
-
-
   @media (max-width: $tablet-width) {
-
   }
 
   @media (max-width: $mobile-width) {
@@ -38,7 +35,6 @@
 
 .logo--burger {
   @media (max-width: $mobile-width) {
-    // margin-left: 7.5%;
     z-index: 12;
     left: 50px;
   }

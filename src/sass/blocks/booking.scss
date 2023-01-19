@@ -1,9 +1,8 @@
 .booking {
-  background-image: url("/img/book-background.jpg");
+  background-image: url("../img/book-background.jpg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
-
 
   @media (max-width: $tablet-width) {
   }
@@ -22,7 +21,6 @@
 
   @media (max-width: $tablet-width) {
     flex-direction: column;
-
   }
 
   @media (max-width: $mobile-width) {
@@ -32,7 +30,6 @@
 .booking__description {
   width: 100%;
   max-width: 493px;
-
 
   @media (max-width: $tablet-width) {
 
@@ -113,13 +110,11 @@
   text-align: left;
 
   @media (max-width: $tablet-width) {
-
   }
 
   @media (max-width: $mobile-width) {
     text-align: center;
   }
-
 }
 
 .booking__inputs > input {
@@ -132,7 +127,6 @@
   }
 
   @media (max-width: $mobile-width) {
-
   }
 }
 
@@ -196,7 +190,7 @@ input[type="checkbox"] + label::before {
 input[type="checkbox"]:checked + label::after {
   content: "";
   position: absolute;
-  background-image: url("/img/icons/checkbox_mark.svg");
+  background-image: url("../img/icons/checkbox_mark.svg");
   background-repeat: no-repeat;
   width: 18px;
   height: 18px;

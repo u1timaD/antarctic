@@ -1,5 +1,4 @@
 .nav {
-
 }
 
 .nav--header {
@@ -16,11 +15,8 @@
     top: 0;
     background-size: cover;
     transition: right 500ms, background-color 0.5s;
-
   }
 }
-
-
 
 .nav__list {
   display: flex;
@@ -78,7 +74,6 @@
   }
 }
 
-
 .nav--header .nav__list {
   @media (max-width: $mobile-width) {
     flex-direction: column;
@@ -106,5 +101,4 @@
     cursor: pointer;
     z-index: 11;
   }
-
 }

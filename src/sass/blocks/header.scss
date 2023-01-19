@@ -29,18 +29,12 @@
     padding: 0 15px;
     flex-direction: column;
     align-items: flex-start;
-
-    // background-color: $color-alice-blue;
-
   }
-
-
 }
 
 
 .header__container .logo__wrapper {
   @media (max-width: $tablet-width) {
-
   }
 
   @media (max-width: $mobile-width) {

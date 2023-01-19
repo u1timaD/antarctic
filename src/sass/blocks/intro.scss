@@ -1,5 +1,5 @@
 .intro {
-  background-image: url("/img/intro-background-desktop.jpg");
+  background-image: url("../img/intro-background-desktop.jpg");
   background-color: $color-lochmara;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,20 +7,20 @@
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 
   @media (min-resolution: 2dppx) {
-    background-image: url("/img/intro-background-desktop@2x.jpg");
+    background-image: url("../img/intro-background-desktop@2x.jpg");
   }
 
   @media (max-width: $tablet-width) {
-    background-image: url("/img/intro-background-tablet.jpg");
+    background-image: url("../img/intro-background-tablet.jpg");
     @media (min-resoluton: $retina-dppx) {
-      background-image: url("/img/intro-background-tablet@2x.jpg");
+      background-image: url("../img/intro-background-tablet@2x.jpg");
     }
   }
 
   @media (max-width: $mobile-width) {
-    background-image: url("/img/intro-background-mobile.jpg");
+    background-image: url("../img/intro-background-mobile.jpg");
     @media (min-resoluton: $retina-dppx) {
-      background-image: url("/img/intro-background-mobile@2x.jpg");
+      background-image: url("../img/intro-background-mobile@2x.jpg");
     }
   }
 }
@@ -41,7 +41,6 @@
 }
 
 .intro__block {
-
 }
 
 .intro__block h1 {
