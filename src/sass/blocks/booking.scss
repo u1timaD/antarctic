@@ -17,6 +17,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   @media (max-width: $tablet-width) {
     flex-direction: column;
@@ -185,6 +187,10 @@ input[type="checkbox"] + label::before {
   background-color: $color-alice-blue;
   top: -4px;
   left: -24px;
+
+  @media (max-width: 391px) {
+    top: 4px;
+  }
 }
 
 input[type="checkbox"]:checked + label::after {
