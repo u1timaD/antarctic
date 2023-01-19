@@ -9,7 +9,12 @@
   }
 }
 
+.logo__link {
+}
+
 .logo__icon {
+  fill: $color-alice-blue;
+  transition: all 1s;
 
   @media (max-width: $tablet-width) {
     width: 38px;
@@ -19,5 +24,25 @@
   @media (max-width: $mobile-width) {
     width: 42px;
     height: 22px;
+  }
+}
+
+
+.logo--header {
+  @media (max-width: $mobile-width) {
+    position: absolute;
+    transition: all .5s;
+    left: 15px;
+  }
+}
+
+.logo--burger {
+  @media (max-width: $mobile-width) {
+    // margin-left: 7.5%;
+    z-index: 12;
+    left: 50px;
+  }
+  .logo__icon {
+    fill: $color-tangaroa;
   }
 }

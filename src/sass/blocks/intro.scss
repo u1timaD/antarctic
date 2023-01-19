@@ -55,7 +55,6 @@
   @media (max-width: $mobile-width) {
     @include font-bold(36px, 45px);
     margin-bottom: 18px;
-    max-width: 256px;
   }
 }
 
