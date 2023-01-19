@@ -1,50 +1,283 @@
-<section class="product">
+<section class="product" id="product">
   <div class="product__container container">
   <h2>Ближайшие круизы</h2>
-  <div class="product__block">
-    <div class="product__card product__card--title product__card--astoria">
-      <h3>Круиз “Астория”</h3>
-    </div>
-    <div class="product__card product__card--title product__card--elain product__card--description">
-      <!-- <span>Круиз “Элайн”</span> -->
-      <h3>Круиз “Элайн”</h3>
-      <div class="product__feature">
-        <span>Маршрут</span>
-        <p>Аргентина - Фолклендские острова - Антарктида - Чили</p>
+  <ul class="product__block">
+    <li class="product__card">
+      <div class="product__front">
+        <h3>Круиз “Астория”</h3>
+        <picture>
+          <source type="img/webp" srcset="/img/astoria.webp, /img/astoria@2x.webp 2x">
+          <img src="/img/astoria.jpg" srcset="/img/astoria@2x.jpg 2x" width="260" height="386"
+            alt="Потрескавшийся лёд на фоне снежного берега и сопки">
+        </picture>
       </div>
-      <div class="product__feature">
-        <span>Порт отправления</span>
-        <p>Буэнос-Айрес</p>
+      <div class="product__back">
+        <h3>Круиз “Астория”</h3>
+        <ul class="product__list">
+          <li class="product__item">
+            <h4>Маршрут</h4>
+            <span>Аргентина - Фолклендские острова - Антарктида</span>
+          </li>
+          <li class="product__item">
+            <h4>Порт(ы) отправления:</h4>
+            <span> Ушуайя</span>
+          </li>
+          <li class="product__item">
+            <h4>Продолжительность</h4>
+            <span>11 дней</span>
+          </li>
+          <li class="product__item">
+            <h4>Цена</h4>
+            <span>от 11500 $</span>
+          </li>
+        </ul>
+        <button class="product__button button" type="button">Забронировать</button>
       </div>
-      <div class="product__feature">
-        <span>Продолжительность</span>
-        <p>20 дней</p>
-      </div>
-      <div class="product__feature">
-        <span>Цена</span>
-        <p>от 14500 $</p>
-      </div>
-      <button type="button">Забронировать</button>
+    </li>
 
-    </div>
-    <div class="product__card product__card--atlantis">
-      <span>Круиз “Атлантис”</span>
-    </div>
-    <div class="product__card product__card--odisey">
-      <span>Круиз “Одиссей”</span>
-    </div>
-    <div class="product__card product__card--olimpiya">
-      <span>Круиз “Олимпия”</span>
-    </div>
-    <div class="product__card product__card--avrora">
-      <span>Круиз “Аврора”</span>
-    </div>
-    <div class="product__card product__card--leonor">
-      <span>Круиз “Леонор”</span>
-    </div>
-    <div class="product__card product__card--minion">
-      <span>Круиз “Минион - 1”</span>
-    </div>
-  </div>
+    <li class="product__card">
+      <div class="product__front">
+        <h3>Круиз “Элайн”</h3>
+        <picture>
+          <source type="img/webp" srcset="/img/astoria.webp, /img/astoria@2x.webp 2x">
+          <img src="/img/astoria.jpg" srcset="/img/astoria@2x.jpg 2x" width="260" height="386"
+            alt="">
+        </picture>
+      </div>
+      <div class="product__back">
+        <h3>Круиз “Элайн”</h3>
+        <ul class="product__list">
+          <li class="product__item">
+            <h4>Маршрут</h4>
+            <span>Аргентина - Фолклендские острова - Антарктида - Чили</span>
+          </li>
+          <li class="product__item">
+            <h4>Порт отправления</h4>
+            <span>Буэнос-Айрес</span>
+          </li>
+          <li class="product__item">
+            <h4>Продолжительность</h4>
+            <span>20 дней</span>
+          </li>
+          <li class="product__item">
+            <h4>Цена</h4>
+            <span>от 14500 $</span>
+          </li>
+        </ul>
+        <button class="product__button button" type="button">Забронировать</button>
+      </div>
+    </li>
+
+    <li class="product__card">
+      <div class="product__front">
+        <h3>Круиз “Атлантис”</h3>
+        <picture>
+          <source type="img/webp" srcset="/img/atlantis.webp, /img/atlantis@2x.webp 2x">
+          <img src="/img/atlantis.jpg" srcset="/img/atlantis@2x.jpg 2x" width="260" height="386"
+            alt="Небольшие снежные островки в воде">
+        </picture>
+      </div>
+      <div class="product__back">
+        <h3>Круиз “Атлантис”</h3>
+        <ul class="product__list">
+          <li class="product__item">
+            <h4>Маршрут</h4>
+            <span>Аргентина - Южная Георгия и Южные Сандвичевы Острова - Антарктида</span>
+          </li>
+          <li class="product__item">
+            <h4>Порт(ы) отправления:</h4>
+            <span>Ушуайя</span>
+          </li>
+          <li class="product__item">
+            <h4>Продолжительность</h4>
+            <span>15 дней</span>
+          </li>
+          <li class="product__item">
+            <h4>Цена</h4>
+            <span>от 12500 $</span>
+          </li>
+        </ul>
+        <button class="product__button button" type="button">Забронировать</button>
+      </div>
+    </li>
+
+
+
+    <li class="product__card">
+      <div class="product__front">
+        <h3>Круиз “Одиссей”</h3>
+        <picture>
+          <source type="img/webp" srcset="/img/odisey.webp, /img/odisey@2x.webp 2x">
+          <img src="/img/odisey.jpg" srcset="/img/odisey@2x.jpg 2x" width="260" height="386"
+            alt="Снежные вулканы в далеке на берегу океана">
+        </picture>
+      </div>
+      <div class="product__back">
+        <h3>Круиз “Одиссей”</h3>
+        <ul class="product__list">
+          <li class="product__item">
+            <h4>Маршрут</h4>
+            <span>Чили - Антарктида</span>
+          </li>
+          <li class="product__item">
+            <h4>Порт(ы) отправления:</h4>
+            <span>Пунта-Аренас</span>
+          </li>
+          <li class="product__item">
+            <h4>Продолжительность</h4>
+            <span>13 дней</span>
+          </li>
+          <li class="product__item">
+            <h4>Цена</h4>
+            <span>от 9700 $</span>
+          </li>
+        </ul>
+        <button class="product__button button" type="button">Забронировать</button>
+      </div>
+    </li>
+
+
+
+    <li class="product__card">
+      <div class="product__front">
+        <h3>Круиз “Олимпия”</h3>
+        <picture>
+          <source type="img/webp" srcset="/img/olimpiya.webp, /img/olimpiya@2x.webp 2x">
+          <img src="/img/olimpiya.jpg" srcset="/img/olimpiya@2x.jpg 2x" width="260" height="386"
+            alt="Стая пингвинов в далеке на берегу на фоне айспергов">
+        </picture>
+      </div>
+      <div class="product__back">
+        <h3>Круиз “Олимпия”</h3>
+        <ul class="product__list">
+          <li class="product__item">
+            <h4>Маршрут</h4>
+            <span>Аргентина - Фолклендские острова - Южная Георгия - Антарктида</span>
+          </li>
+          <li class="product__item">
+            <h4>Порт(ы) отправления:</h4>
+            <span>Ушуайя</span>
+          </li>
+          <li class="product__item">
+            <h4>Продолжительность</h4>
+            <span>18 дней</span>
+          </li>
+          <li class="product__item">
+            <h4>Цена</h4>
+            <span>от 18600 $</span>
+          </li>
+        </ul>
+        <button class="product__button button" type="button">Забронировать</button>
+      </div>
+    </li>
+
+
+
+    <li class="product__card">
+      <div class="product__front">
+        <h3>Круиз “Аврора”</h3>
+        <picture>
+          <source type="img/webp" srcset="/img/avrora.webp, /img/avrora@2x.webp 2x">
+          <img src="/img/avrora.jpg" srcset="/img/avrora@2x.jpg 2x" width="260" height="386"
+            alt="Берег вид со скалы">
+        </picture>
+      </div>
+      <div class="product__back">
+        <h3>Круиз “Аврора”</h3>
+        <ul class="product__list">
+          <li class="product__item">
+            <h4>Маршрут</h4>
+            <span>Аргентина - Антарктида - Чили</span>
+          </li>
+          <li class="product__item">
+            <h4>Порт(ы) отправления:</h4>
+            <span>Ушуайя</span>
+          </li>
+          <li class="product__item">
+            <h4>Продолжительность</h4>
+            <span>12 дней</span>
+          </li>
+          <li class="product__item">
+            <h4>Цена</h4>
+            <span>от 11700 $</span>
+          </li>
+        </ul>
+        <button class="product__button button" type="button">Забронировать</button>
+      </div>
+    </li>
+
+
+
+
+    <li class="product__card">
+      <div class="product__front">
+        <h3>Круиз “Леонор”</h3>
+        <picture>
+          <source type="img/webp" srcset="/img/leonor.webp, /img/leonor@2x.webp 2x">
+          <img src="/img/leonor.jpg" srcset="/img/leonor@2x.jpg 2x" width="260" height="386"
+            alt="Небольшая яхта посреди океана который окружен снежными берегами">
+        </picture>
+      </div>
+      <div class="product__back">
+        <h3>Круиз “Леонор”</h3>
+        <ul class="product__list">
+          <li class="product__item">
+            <h4>Маршрут</h4>
+            <span>Чили - Южная Георгия - Антарктида - Аргентина</span>
+          </li>
+          <li class="product__item">
+            <h4>Порт(ы) отправления:</h4>
+            <span>Пунта-Аренас</span>
+          </li>
+          <li class="product__item">
+            <h4>Продолжительность</h4>
+            <span>17 дней</span>
+          </li>
+          <li class="product__item">
+            <h4>Цена</h4>
+            <span>от 12500 $</span>
+          </li>
+        </ul>
+        <button class="product__button button" type="button">Забронировать</button>
+      </div>
+    </li>
+
+
+
+
+    <li class="product__card">
+      <div class="product__front">
+        <h3>Круиз “Минион-1”</h3>
+        <picture>
+          <source type="img/webp" srcset="/img/minion.webp, /img/minion@2x.webp 2x">
+          <img src="/img/minion.jpg" srcset="/img/minion@2x.jpg 2x" width="260" height="386"
+            alt="Вид с берега на воду на фоне гор">
+        </picture>
+      </div>
+      <div class="product__back">
+        <h3>Круиз “Минион-1”</h3>
+        <ul class="product__list">
+          <li class="product__item">
+            <h4>Маршрут</h4>
+            <span>Аргентина - Антарктида</span>
+          </li>
+          <li class="product__item">
+            <h4>Порт(ы) отправления:</h4>
+            <span>Ушуайя</span>
+          </li>
+          <li class="product__item">
+            <h4>Продолжительность</h4>
+            <span>11 дней</span>
+          </li>
+          <li class="product__item">
+            <h4>Цена</h4>
+            <span>от 12300 $</span>
+          </li>
+        </ul>
+        <button class="product__button button" type="button">Забронировать</button>
+      </div>
+    </li>
+
+  </ul>
 </div>
 </section>

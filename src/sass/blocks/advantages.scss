@@ -74,6 +74,7 @@
     height: 32px;
     left: 30px;
     top: 30px;
+    animation: zodiac 2s infinite;
 
     @media (max-width: $tablet-width) {
       background-size: cover;
@@ -100,6 +101,7 @@
     height: 32px;
     left: 30px;
     top: 30px;
+    animation: dobleMark 2s infinite;
 
     @media (max-width: $tablet-width) {
       width: 27px;
@@ -115,6 +117,18 @@
   }
 }
 
+@keyframes dobleMark {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 &--zodiac {
   &::before {
     content: '';
@@ -126,6 +140,7 @@
     object-fit: cover;
     left: 30px;
     top: 30px;
+    animation: zodiac 2s infinite;
 
     @media (max-width: $tablet-width) {
       width: 36px;
@@ -139,6 +154,14 @@
       top: 20px;
     }
   }
+}
+
+@keyframes zodiac {
+  from {
+    transform: rotate(-2deg)
+  }
+  50% {transform: rotate(2deg)}
+  to {transform: rotate(-2deg)}
 }
 }
 
